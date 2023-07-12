@@ -5,18 +5,18 @@ function App() {
   return (
     <div className="App">
       <ul className="Navbar">
-        <Link to="/">
-          <li>Home</li>
-        </Link>
-        <Link to="/about">
-          <li>About</li>
-        </Link>
-        <Link to="/contacts">
-          <li>Contacts</li>
-        </Link>
-        <Link to="/locations">
-          <li>Locations</li>
-        </Link>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+        <li>
+          <Link to="/contacts">Contacts</Link>
+        </li>
+        <li>
+          <Link to="/locations">Locations</Link>
+        </li>
       </ul>
       <Outlet />
     </div>
